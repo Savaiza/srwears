@@ -1,0 +1,82 @@
+h1 {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    margin: 20px; /
+}
+
+        .menu {
+            width: 400px;
+            height: 70px;
+            display: flex;
+            justify-content: center; /* Center menu items */
+            align-items: center; /* Center items vertically */
+            margin-top: 20px; /* Space from the top */
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0; /* Remove default padding */
+        }
+
+        ul li {
+            list-style: none;
+            margin-left: 62px;
+            font-size: 40px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: rgb(152, 43, 3);
+            font-family: Arial;
+            font-weight: bold;
+            transition: 0.4s ease;
+        }
+
+        ul li a:hover {
+            color: rgb(6, 171, 122);
+        }
+
+        .search {
+            margin-top: 10px; /* Space between menu and search */
+            display: flex;
+            justify-content: center; /* Center search bar */
+            align-items: center;
+        }
+
+        .srch {
+            font-family: 'Times New Roman';
+            width: 200px;
+            height: 30px;
+            background: transparent;
+            border: 1px solid #032643;
+            color: rgb(20, 20, 19);
+            border-right: none;
+            font-size: 16px;
+            padding: 10px;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+
+        .btn {
+            width: 100px;
+            height: 40px;
+            background: rgb(83, 85, 85);
+            border: 2px solid #040d1504;
+            color: #d8cdd8;
+            font-size: 15px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            cursor: pointer; /* Change cursor to pointer */
+        }
+
+        .btn:focus {
+            outline: none;
+        }
+
+        .srch:focus {
+            outline: none;
+        }
+    

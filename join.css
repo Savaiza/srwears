@@ -1,0 +1,58 @@
+.box {
+    background-color: rgba(148, 153, 153, 0.932); 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 300px; 
+    border: 1px solid #d6aeae; 
+}
+.form{
+    text-align: center;
+
+    margin-left: 400px;
+    margin-top: 150px;
+    
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.icons a{
+    text-decoration: none;
+    color: #9e589e;
+}
+.icons ion-icon{
+    color: #6c1a6c;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+ color: rgb(4, 68, 137);
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(79, 79, 137);
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: rgb(148, 148, 186);
+}

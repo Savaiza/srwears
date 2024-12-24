@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>background Image</title>
+    <title>SR Wears</title>
+    <link rel="stylesheet" href="styles.css">
+    
+        
+</head>
+<body>
+    <body background="wp.JPG"></body>
+
+    <h1 class="logo">TRACKING ORDER DETAILS</h1>
+            
+            
+<div class="box">
+    <h2>Login</h2>
+    <form id="loginForm">
+        <div class="form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <a href="bk.html" class="button">Log In</a>
+        <div class="error" id="error"></div>
+    </form>
+</div>
+
+<script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        
+        if (username === 'savaiza' && password === 'savi89') {
+            alert('Login successful!');
+        } else {
+            document.getElementById('error').innerText = 'Invalid username or password.';
+        }
+    });
+</script>
+
+</body>
+</html>
